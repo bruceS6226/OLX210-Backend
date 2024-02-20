@@ -1,0 +1,57 @@
+BACKEND
+  1. Desarrollo MEAN stack (MongoDB, Express, Angular, NodeJS)
+  2. MongoDB
+  2.1. Tipos de bases de datos
+  *SQL
+      Relacionales
+      Tablas
+      Esquema
+  *NoSQL
+      No relacionales
+      JavaScript para hacer consultas como lenguaje
+      Orientadas a colecciones de documentos (json, bson)
+      Sencillez, velocidad, esquema libre
+  -----------------------------------------------------------------------
+  3. NodeJs: JavaScript en el servidor
+  3.1. Conexiones a BDD
+  3.2. Crear un servidor
+  3.3. Usar herramientas como Postman
+  3.4. Generar modelos
+  3.5. Crear controladores y rutas
+  -----------------------------------------------------------------------
+  API Node: es un servicio backend que nos permita recibir petiones
+            HTTP y devolver un json, este servicio lo puede consumir
+            cualquier dispositivo o app que entienda el protocolo HTTP
+  //crear proyecto NodeJs
+  //moverse a la carpeta backend y ejecutar:
+  npm init, npm init -yes
+  //llenamos los datos del proyecto
+  //agregar las dependencias o paquetes para el proyecto
+  //servidor que procese las peticiones y me permita definir las rutas:
+    npm install express --save
+  //paquete para convertir nuestras peticiones de backend en json:
+    npm install body-parser --save
+  //paquete para manejo de archivos
+    npm install connect-multiparty --save
+  //para trabajar con MongoDB
+    npm install mongoose --save
+  //para trabajar con MySQL
+    npm install mysql2 ó npm install mysql
+  //para refrescar el servidor
+    npm install nodemon --save
+  //para encriptar contraseñas
+    npm install bcryptjs
+  //para las vistas
+    npm install express-handlebars
+  //para mostrar alertas
+    npm install ngx-toastr --save
+  //para mantener sesiones activas dentro del servidor si inicio sesion
+    npm install express-mysql-session express-session passport passport-local
+  //generar archivo index.js y app.js
+  //colocar dentro de package.json(despues de linea 7)
+    ,
+      "start": "nodemon index.js"
+FRONTEND
+  ng new calculadora
+  //generar componentes
+  ng g component components/editarZapato

@@ -1,0 +1,36 @@
+# Dependencias
+/node_modules
+
+# Archivos de configuración
+.env
+
+# Archivos de registro
+logs
+*.log
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Directorio de respaldos
+backup
+
+# Dependencias específicas de IDE o editor
+.vscode
+.idea
+
+# Archivos de compilación y distribución
+/dist
+
+# Archivos de entorno local (si los tienes)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencias de construcción
+/node_modules
+
+# Archivos de respaldo y temporales
+*.swp
+*~
