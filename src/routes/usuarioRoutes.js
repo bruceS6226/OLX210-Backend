@@ -7,6 +7,7 @@ const { obtenerClasesUsuario, obtenerClaseUsuario } = require('../controllers/cl
 const { crearCategoria, obtenerCategorias, obtenerCategoria, actualizarCategoria, eliminarCategoria} = require('../controllers/categoriaController');
 const { crearSubcategoria, obtenerSubcategoria, obtenerSubcategorias, eliminarSubcategoria, actualizarSubcategoria} = require('../controllers/subCategoriaController');
 const { crearAdministrador, loginAdministrador, obtenerAdministradores, actualizarAdministrador, eliminarAdministrador, obtenerAdministrador } = require('../controllers/administradoresController');
+const { verificarCorreo, validarOTP, reenviarOTP } = require('../controllers/verificacionesController');
 
 const router = Router();
 //categorias
