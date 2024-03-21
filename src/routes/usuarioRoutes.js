@@ -44,4 +44,9 @@ router.get('/usuarios', obtenerUsuarios);
 router.get('/usuario/:id', validateToken, obtenerUsuario);
 router.put('/usuario/:id', validateToken, actualizarUsuario);
 router.delete('/usuario/:id', validateToken, eliminarUsuario);
+//Verificar correo electrónico 
+router.post('/verificarCorreo', verificarCorreo);
+router.post('/validarOTP', validarOTP);
+router.post('/reenviarCodigoOTP', reenviarOTP);
+
 module.exports = router;

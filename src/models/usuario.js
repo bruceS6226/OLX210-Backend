@@ -70,6 +70,10 @@ Usuario.init(
       allowNull: false,
       field: 'id_clase_usuario',
     },
+    correo_verificado: {
+      type: DataTypes.BOOLEAN,
+      allowNull: true,
+    }
   },
   {
     sequelize,
