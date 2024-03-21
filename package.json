@@ -19,7 +19,8 @@
     "@types/jsonwebtoken": "^9.0.5",
     "@types/multer": "^1.4.10",
     "nodemon": "^3.0.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "nodemailer": "^6.9.9"
   },
   "name": "olx-8-backend",
   "version": "1.0.0",
